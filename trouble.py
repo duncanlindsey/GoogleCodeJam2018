@@ -117,11 +117,11 @@ def run():
     #We loop through each test case
     for t in range(1, T+1):
 
-        N = int(sample_input[int(2*t)-1])
-        V = [int(v) for v in sample_input[int(2*t)].split(' ')]
+        N = int(sample_input[int(2*t)-1]) #SWAP
+        V = [int(v) for v in sample_input[int(2*t)].split(' ')] #SWAP
 
-        #N = int(input())
-        #V = [int(v) for v in input().split(' ')]
+        #N = int(input()) #SWAP
+        #V = [int(v) for v in input().split(' ')] #SWAP
 
         write_output(t, solve(V))
 
