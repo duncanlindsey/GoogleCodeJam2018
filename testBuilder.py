@@ -44,5 +44,5 @@ var_ineq = [(2, 10), #R
             (1, 1), #H
             (1, 1)] #V
 
-generate_test_data(5, var_ineq, 'testData')
+generate_test_data(1, var_ineq, 'singleTest')
 
